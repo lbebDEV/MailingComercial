@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MailingComercial.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceProcess;
@@ -14,12 +15,18 @@ namespace MailingComercial
         /// </summary>
         static void Main()
         {
+#if (DEBUG)
+            Main main = new Main();
+            main.ExecucaoServico();
+#else
+
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new MailComercial()
             };
             ServiceBase.Run(ServicesToRun);
+#endif
         }
     }
 }

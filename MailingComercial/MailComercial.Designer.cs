@@ -1,6 +1,6 @@
 ﻿namespace MailingComercial
 {
-    partial class Service1
+    partial class MailComercial
     {
         /// <summary> 
         /// Variável de designer necessária.

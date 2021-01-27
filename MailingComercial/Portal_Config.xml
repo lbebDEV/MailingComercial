@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuracoes>
+  <Conexao>
+    <Guardian>
+      <Servidor>kifferti.ddns.net</Servidor>
+      <Banco>guardianportal3</Banco>
+      <Login>lbeb</Login>
+      <Senha>sox0OgOMiDmgUkR4tekyYg==</Senha>
+    </Guardian>
+    <Portal>
+      <Servidor>damarfe.database.windows.net</Servidor>
+      <Banco>lbeb_dmf</Banco>
+      <Login>adamarfe</Login>
+      <Senha>NcrLe9LLp43dGnG8mt2cl1aClLromlhxGX45BBfZO+k=</Senha>
+    </Portal>
+    <ERP>
+      <Servidor>VPC-APPT001</Servidor>
+      <Banco>DAMARFE-TESTE-P12</Banco>
+      <Login>Protheus</Login>
+      <Senha>HavBoM1XDL9g+5zIy5bq6imztx9zasx9spCWiKRemwE=</Senha>
+    </ERP>
+    <Gestor>
+      <Servidor>LBEBSRV01</Servidor>
+      <Banco>lbeb</Banco>
+      <Login>lbeb</Login>
+      <Senha>sox0OgOMiDmgUkR4tekyYg==</Senha>
+    </Gestor>
+  </Conexao>
+</Configuracoes>

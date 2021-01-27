@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuracoes>
+  <Conexao>
+    <Guardian>
+      <Servidor>kifferti.ddns.net</Servidor>
+      <Banco>guardianportal3</Banco>
+      <Login>lbeb</Login>
+      <Senha>sox0OgOMiDmgUkR4tekyYg==</Senha>
+    </Guardian>
+    <Portal>
+      <Servidor>LAPTOP-DP967FL5\SQLEXPRESS</Servidor>
+      <Banco>GuardianDamarfe</Banco>
+      <Login>sa</Login>
+      <Senha>mtiV1B79y87Ns3bP357vjA==</Senha>
+    </Portal>
+    <ERP>
+      <Servidor>LAPTOP-DP967FL5\SQLEXPRESS</Servidor>
+      <Banco>ERP_DAMARFE</Banco>
+      <Login>sa</Login>
+      <Senha>mtiV1B79y87Ns3bP357vjA==</Senha>
+    </ERP>
+    <Gestor>
+      <Servidor>kifferti.ddns.net</Servidor>
+      <Banco>lbeb</Banco>
+      <Login>lbeb</Login>
+      <Senha>sox0OgOMiDmgUkR4tekyYg==</Senha>
+    </Gestor>
+  </Conexao>
+</Configuracoes>
