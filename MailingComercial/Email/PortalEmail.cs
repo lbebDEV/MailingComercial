@@ -4,6 +4,7 @@ using MailingComercial.Model;
 using MailingComercial.ServiceLog;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 
 namespace MailingComercial.Email
@@ -318,6 +319,9 @@ namespace MailingComercial.Email
                 email.Mensagem = email.Mensagem.Replace("#ContatoClienteHoje", contatoClientesHoje);
                 email.Mensagem = email.Mensagem.Replace("#DataOntem", DateTime.Now.AddDays(-1).ToString("dd/MM/yyyy"));
                 email.Mensagem = email.Mensagem.Replace("#DataHoje", DateTime.Now.ToString("dd/MM/yyyy"));
+                email.Mensagem = email.Mensagem.Replace("#DiaSemanaOntem", DateTime.Now.AddDays(-1).ToString("ddd", new CultureInfo("pt-BR")));
+                email.Mensagem = email.Mensagem.Replace("#DiaSemanaHoje", DateTime.Now.ToString("ddd", new CultureInfo("pt-BR")));
+
 
                 email.Assunto = "Mailing Comercial | " + DateTime.Now.ToString("dd/MM/yyyy HH:mm");
                 email.Mensagem = email.Mensagem;
